@@ -1,0 +1,715 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.container {
+	width: 1340px;
+	margin: auto;
+}
+.yoga-class {
+	width: 100%;
+	height: 980px;
+	background-image: url('images/yogaclass.png') ;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	display: inline-block;
+	float: left;
+}
+.logo {
+	
+	background-color: #6c9894;
+	margin-left: 40px;
+	text-align: center;
+	padding: 10px;
+	display: inline-block;
+	float: left;
+}
+.menu {
+	width: 1373px;
+	background-color: #c2e2df;
+	display: inline-block;
+	float: left;
+	margin-top: 30px;
+	color: #6c8280;
+}
+li:hover {
+	background-color: #6c9894;
+}
+ul {
+	list-style: none;
+	font-size: 18px;
+	text-decoration-line: none;
+	letter-spacing: 0px;
+	color: #444444;
+	font-family: "Baloo Bhai";
+	display: inline-block;
+	float: right;
+}
+li {
+	display: inline-block;
+	float: left;
+	padding-right: 40px;
+}
+a {
+	text-decoration: none;
+}
+.yoga {
+	background-image: url('images/pic2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 610px;
+	height: 630px;
+	text-align: center;
+	padding: 120px 0px 0px 30px;
+	display: inline-block;
+	float: left;
+}
+.yoga-pic {
+	border-radius: 50%;
+}
+h2 {
+	font-size: 100px;
+	color: #6c9894;
+	font-family: "Baloo Bhai";
+}
+p {
+	font-size: 21px;
+	color: #6c9894;
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
+}
+.yoga-text {
+	display: inline-block;
+	float: right;
+	width: 730px;
+	text-align: center;
+}
+.join {
+	color: white;
+	background-color: #6c9894;
+	padding: 20px 50px;
+	border-radius: 20px;
+	border: none;
+	font-size: 17px;
+	letter-spacing: 4px;
+	font-weight: 700;
+	font-family: "Lato";
+}
+.choose-class {
+	width: 100%;
+	height: 1100px;
+	background-image: url('images/block2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h3 {
+	font-size: 75px;
+	color: #f4f9f4;
+	font-family: "Baloo Bhai";
+
+	
+}
+.block2 {
+	padding-top: 50px;
+	text-align: center;
+}
+.block2-text {
+	font-size: 30px;
+	color: #f4f9f4; 
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
+}
+.newbie {
+	background-image: url('images/Shape.png');
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-right: 40px;
+	background-size: cover;
+	padding: 30px;
+}
+.advanced {
+	background-image: url('images/Shape.png');
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-right: 40px;
+	background-size: cover;
+	padding: 30px;
+}
+.expert {
+	background-image: url('images/Shape.png');
+	width: 400px;
+	height: 400px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	background-size: cover;
+	padding: 30px;
+}
+.block2pic {
+	border-radius: 50%;
+}
+.block-two-text {
+	display: inline-block;
+	float: left;
+}
+h4 {
+	font-size: 37px;
+	color: #f4f9f4;
+	font-family: "Baloo Bhai";
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+	padding-top: 50px;
+}
+.newbie-text {
+	color: #f4f9f4;
+	font-family: "Montserrat";
+	text-align: center;
+	margin-left: 30px;
+}
+.block3 {
+	background-image: url('images/block3.png'), url('images/block-3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 1200px;
+	display: inline-block;
+}
+.block3-title {
+	text-align: center;
+}
+.circle {
+	width: 330px;
+	height: 330px;
+	border-radius: 165px;
+	border: 5px solid #6c9894;
+	margin: 40px;
+	display: inline-block;
+	float: left;
+	padding: 25px;
+}
+.circle-number {
+	font-size: 50px;
+	color: #6c9894;
+	font-family: "Baloo Bhai";
+	text-align: center;
+}
+.circle-text {
+	font-size: 27px;
+	color: #6c9894;
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
+}
+.block4-title {
+	width: 50%;
+	height: 1300px;
+	background-image: url('images/block2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	padding-top: 150px;
+}
+.block4-pic {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 1300px;
+	background-image: url('images/block4.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.block4-text {
+	font-size: 30px;
+	color: #f4f9f4;
+	font-weight: 400;
+	font-family: "Montserrat";
+}
+.read-more {
+	font-size: 25px;
+	color: #6c9894;
+	font-family: "Baloo Bhai";
+	text-align: center;
+	width: 322px;
+	height: 65px;
+	border: 4px #f4f9f4;
+	background-color: #f4f9f4;
+}
+.block5 {
+	width: 100%;
+	height: 980px;
+	background-image: url('images/block-3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+.block5-pic {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+.experience {
+	display: block;
+	margin: auto;
+	padding-top: 110px;
+}
+.block5-title {
+	font-size: 75px;
+	color: #6c9894;
+	font-family: "Baloo Bhai";
+}
+.block5-text {
+	text-align: center;
+	padding-top: 100px;
+	display: inline-block;
+	float: left;
+	background-image: url('images/block5img.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 980px;
+	background-position-x: 570px;
+	width: 50%;
+}
+.block-five-text {
+	height: 210px;
+	font-size: 30px;
+	color: #6c9894;
+	font-weight: 400;
+	font-family: "Montserrat";
+}
+.block5-read {
+	font-size: 25px;
+	color: #f4f9f4;
+	font-family: "Baloo Bhai";
+	text-align: center;
+	width: 322px;
+	height: 65px;
+	border: 4px #f4f9f4;
+	background-color: #6c9894;
+}
+.block6 {
+	width: 100%;
+	height: 1000px;
+	background-image: url('images/block2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 20px;
+}
+.newbie-block6 {
+	width: 375px;
+	height: 491px;
+	background-color: #f4f9f4;
+	border-radius: 5px;
+	display: inline-block;
+	float: left;
+	margin-right: 50px;
+}
+.register {
+	font-size: 25px;
+	color: #ffffff;
+	font-family: "Baloo Bhai";
+	text-align: center;
+	width: 322px;
+	height: 65px;
+	border: none;
+	background-color: #6c9894;
+}
+h5 {
+	font-size: 20px;
+	color: #6c9894;
+	font-family: "Baloo Bhai";
+	text-align: center;
+}
+.block7 {
+	width: 100%;
+	height: 1400px;
+	background-image: url('images/block7.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.block7-pic {
+	background-image: url('images/shape7.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 600px;
+	height: 600px;
+	display: inline-block;
+	margin-top: 50px;
+}
+.block-seven-pic {
+	border-radius: 50%;
+	padding: 120px;
+}
+.block7-text {
+	font-size: 58px;
+	color: #6c9894;
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
+}
+.trainer-name {
+	font-size: 58px;
+	color: #6c9894;
+	font-family: "Baloo Bhai";
+	text-align: center;
+}
+.block8 {
+	width: 100%;
+	height: 1000px;
+	background-image: url('images/block2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 30px;
+}
+.block8-text {
+	font-size: 30px;
+	color: #f4f9f4;
+	font-weight: 400;
+	font-family: "Montserrat";
+	text-align: center;
+}
+.email-button {
+	width: 659px;
+	height: 63px;
+	background-color: #ffffff;
+	border-radius: 33px 0 0 33px;
+	border: none;
+	color: #6c9894;
+	font-size: 25px;
+	color: #6c9894;
+	font-weight: 400;
+	font-family: "Montserrat";
+
+}
+.subscribe {
+	width: 222px;
+	height: 65px;
+	border-radius: 33px;
+	background-color: #f4f9f4;
+	font-size: 25px;
+	color: #6c9894;
+	font-family: "Baloo Bhai";
+	text-align: center;
+	margin-left: -50px;
+}
+.block9 {
+	width: 100%;
+	height: 700px;
+	background-image: url('images/yogaclass.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 150px;
+}
+.footer-title {
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	color: #6c9894;
+	font-family: "Baloo Bhai";
+	width: 450px;
+}
+.about {
+	display: inline-block;
+	float: left;
+	width: 400px;
+}
+.footer-information {
+	font-size: 25px;
+	font-weight: 400;
+	font-family: "Montserrat";
+}
+.footer-link{
+	color: #6c9894;
+}
+.social-media {
+	background-color: #6c9894;
+	border-radius: 50%;
+}
+.footer-info {
+	display: inline-grid;
+}
+.block9-text {
+	font-size: 25px;
+	color: #6c9894;
+	font-weight: 400;
+	font-family: "Montserrat";
+	padding: 20px;
+	text-align: left;
+}
+.footer-titles {
+	font-size: 33px;
+	color: #6c9894;
+	font-family: "Baloo Bhai";
+}
+.services {
+	display: inline-block;
+	float: left;
+}
+.follow {
+	display: inline-block;
+	float: left;
+}
+
+@media screen and (max-width: 1200px) {
+	.menu {
+		width: 1050px;
+	}
+	.container {
+		width: 1100px;
+	}
+	.yoga {
+		width: 60%;
+	}
+	.yoga-text {
+		width: 40%;
+	}
+	.newbie, .advanced , .expert {
+		width: 334px;
+		height: 334px;
+	}
+	.block2pic {
+		width: 250px;
+	}
+	.block6 {
+		height: 1400px;
+	}
+	.newbie-block6 {
+		width: 315px;
+		height: 366px;
+	}
+	.block9 {
+		height: 900px;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.menu {
+		width: 951px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.menu {
+		width: 846px;
+	}
+	h2 {
+		font-size: 80px;
+		display: inline;
+	}
+	.yoga {
+		padding-bottom: 100px;
+	}
+	.container {
+		width: 953px;
+	}
+	h3 {
+		font-size: 50px;
+	}
+	.block5-title {
+		font-size: 30px;
+	}
+	.experience {
+		width: 450px;
+	}
+	.newbie-block6 {
+		margin-top: 90px;
+	}
+	.newbie, .advanced, .expert {
+		width: 280px;
+		background-image: none;
+	}
+}
+@media screen and (max-width: 900px) {
+	.menu {
+		width: 753px;
+	}
+	.container {
+		width: 890px;
+	}
+	.block2pic {
+		width: 96px;
+	}
+	.block8-text {
+		width: 800px;
+	}
+	.about {
+		width: 155px;
+	}	
+}
+@media screen and (max-width: 800px) {
+	.yoga-class, .block3, .block5, .block6,.block7, .block8, .block9 {
+		width: 930px;
+	}
+	.menu {
+		width: 696px;
+	}
+	.yoga {
+		background-image: none;
+	}
+	.choose-class {
+		width: 870px;
+	}
+	.block2-text, .block4-text, .block7-text {
+		width: 800px;
+	}
+	.block4-title, .block4-pic  {
+		width: 853px;
+	}
+	.email-button {
+		width: 481px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.yoga-class, .block3, .block5, .block6,.block7, .block8, .block9 {
+		width: 930px;
+	}
+	.menu {
+		width: 784px;
+	}
+	.yoga {
+		background-image: none;
+	}
+	.choose-class {
+		width: 930px;
+	}
+	.block2-text, .block4-text, .block7-text {
+		width: 800px;
+	}
+	.block4-title, .block4-pic  {
+		width: 853px;
+	}
+	.email-button {
+		width: 481px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.yoga-class, .block3, .block5, .block6,.block7, .block8, .block9 {
+		width: 930px;
+	}
+	.menu {
+		width: 784px;
+	}
+	.yoga {
+		background-image: none;
+	}
+	.choose-class {
+		width: 930px;
+	}
+	.block2-text, .block4-text, .block7-text {
+		width: 800px;
+	}
+	.block4-title, .block4-pic  {
+		width: 930px;
+	}
+	.email-button {
+		width: 481px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.yoga-class, .block3, .block5, .block6,.block7, .block8, .block9 {
+		width: 930px;
+	}
+	.menu {
+		width: 784px;
+	}
+	.yoga {
+		background-image: none;
+	}
+	.choose-class {
+		width: 930px;
+	}
+	.block2-text, .block4-text, .block7-text {
+		width: 800px;
+	}
+	.block4-title, .block4-pic  {
+		width: 930px;
+	}
+	.email-button {
+		width: 481px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.yoga-class, .block3, .block5, .block6,.block7, .block8, .block9 {
+		width: 930px;
+	}
+	.menu {
+		width: 784px;
+	}
+	.yoga {
+		background-image: none;
+	}
+	.choose-class {
+		width: 930px;
+	}
+	.block2-text, .block4-text, .block7-text {
+		width: 800px;
+	}
+	.block4-title, .block4-pic  {
+		width: 930px;
+	}
+	.email-button {
+		width: 481px;
+	}
+}
+@media screen and (max-width: 300px) {
+	.yoga-class, .block3, .block5, .block6,.block7, .block8, .block9 {
+		width: 930px;
+	}
+	.menu {
+		width: 784px;
+	}
+	.yoga {
+		background-image: none;
+	}
+	.choose-class {
+		width: 930px;
+	}
+	.block2-text, .block4-text, .block7-text {
+		width: 800px;
+	}
+	.block4-title, .block4-pic  {
+		width: 930px;
+	}
+	.email-button {
+		width: 481px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.yoga-class, .block3, .block5, .block6,.block7, .block8, .block9 {
+		width: 860px;
+	}
+	.menu {
+		width: 696px;
+	}
+	.yoga {
+		background-image: none;
+	}
+	.choose-class {
+		width: 870px;
+	}
+	.block2-text, .block4-text, .block7-text {
+		width: 800px;
+	}
+	.block4-title, .block4-pic  {
+		width: 853px;
+	}
+	
+}
